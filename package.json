@@ -1,0 +1,25 @@
+{
+	"name": "woorelease-bug",
+	"title": "Woorelease bug",
+	"license": "GPL-3.0-or-later",
+	"version": "1.0.0",
+	"description": "woorelease-bug",
+	"repository": {
+	},
+	"scripts": {
+	},
+	"devDependencies": {
+	},
+	"dependencies": {
+	},
+	"config": {
+		"wp_org_slug": "woorelease-bug",
+		"version_replace_paths": [
+			"src",
+			"views",
+			"bin",
+			"uninstall.php",
+			"woorelease-bug.php"
+		]
+	}
+}

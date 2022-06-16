@@ -1,0 +1,4 @@
+*** WooCommerce Woorelease Bug Changelog ***
+
+= 1.0.0 - 2000-01-01 =
+* Prehistoric era.
