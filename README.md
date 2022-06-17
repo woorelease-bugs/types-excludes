@@ -29,7 +29,7 @@ Create and merge a PR
 	### Changelog entry
 	some leftover
 	```
-4. (fall back to PR name) without any `### Changelog entry` section in the body
+4. [(fall back to PR name)](https://github.com/woorelease-bugs/types-excludes/pull/5) without any `### Changelog entry` section in the body
 5. [(problematic fallback)](https://github.com/woorelease-bugs/types-excludes/pull/3) merging `release/1.0.1` branch with `Release 1.0.1` as a title, and no `### Changelog entry` section in the body
 6. Generate chengelog with
 	```
@@ -41,7 +41,7 @@ Create and merge a PR
 1. [(set type - automatic)](https://github.com/woorelease-bugs/types-excludes/pull/2) from a branch prefixed `add/`, `fix/`, `remove/`, `update/`, or `tweak/`
 1. [(set type - manual)](https://github.com/woorelease-bugs/types-excludes/pull/4) from any branch and assign a GH label `changelog: fix|add|update|tweak`
 2. (exclude) and assign a GH label `changelog: none`
-4. (fall back for no label) from a non-prefixed branch and without any label
+4. [(fall back for no label)](https://github.com/woorelease-bugs/types-excludes/pull/5) from a non-prefixed branch and without any label
 5. [(automatically excluded releases)](https://github.com/woorelease-bugs/types-excludes/pull/3) merging `release/*`
 6. Go to https://github.com/woorelease-bugs/types-excludes/releases/new?tag=1.0.2 and click "Generate release notes"
 
