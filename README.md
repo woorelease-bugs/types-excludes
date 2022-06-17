@@ -17,12 +17,12 @@ Create and merge a PR
 	```md
 	### Changelog entry
 	```
-1. (multiple entries) with a body containing 
+1. [(multiple entries)](https://github.com/woorelease-bugs/types-excludes/pull/7) with a body containing 
 	```md
 	### Changelog entry
 
-	> Add - One change.
-	> Fix - Second change.
+	> Update - PR links
+	> Add - changelog results
 	```
 3. [(problematic exclude)](https://github.com/woorelease-bugs/types-excludes/pull/1) with a body containing
 	```md
@@ -35,6 +35,16 @@ Create and merge a PR
 	```
 	woorelease cl:generate --product_version=1.0.2 https://github.com/woorelease-bugs/types-excludes/tree/develop
 	```
+	```diff
+	= 1.0.2 - 2022-06-17 =
+	* Add - One change.
+	* Add - release.yml.
+	* Fix - Add links to PRs.
+    ⚠️* Fix - Release 1.0.1.
+	* Fix - Second change.
+	⚠️* Fix - some leftover.
+	* Tweak - Update README.md.
+	```
 
 ### GitHub config
 Create and merge a PR
@@ -43,8 +53,19 @@ Create and merge a PR
 2. [(exclude)](https://github.com/woorelease-bugs/types-excludes/pull/6) and assign a GH label `changelog: none`
 4. [(fall back for no label)](https://github.com/woorelease-bugs/types-excludes/pull/5) from a non-prefixed branch and without any label
 5. [(automatically excluded releases)](https://github.com/woorelease-bugs/types-excludes/pull/3) merging `release/*`
-6. There is no way to specify multiple entries per single PR (yet?)
+6. There is no way to [specify multiple entries per single PR](https://github.com/woorelease-bugs/types-excludes/pull/7) (yet?)
 7. Go to https://github.com/woorelease-bugs/types-excludes/releases/new?tag=1.0.2 and click "Generate release notes"
+	```
+	## What's Changed
+	### New Features 🎉
+	* Add a workflow to attach label based on PR branchname by @tomalec in https://github.com/woorelease-bugs/types-excludes/pull/1
+	* Add release.yml by @tomalec in https://github.com/woorelease-bugs/types-excludes/pull/2
+	⚠️* Update links & add results by @tomalec in https://github.com/woorelease-bugs/types-excludes/pull/7
+	### Tweaked
+	* Update README.md by @tomalec in https://github.com/woorelease-bugs/types-excludes/pull/4
+	### Other Changes
+	* Add links to PRs by @tomalec in https://github.com/woorelease-bugs/types-excludes/pull/5
+	```
 
 ## Prerequisites
 
