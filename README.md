@@ -13,7 +13,7 @@ Create and merge a PR
 
 	> Add - release.yml
 	```
-2. (exclude) with a body finishing with
+2. [(exclude)](https://github.com/woorelease-bugs/types-excludes/pull/6) with a body finishing with
 	```md
 	### Changelog entry
 	```
@@ -40,10 +40,11 @@ Create and merge a PR
 Create and merge a PR
 1. [(set type - automatic)](https://github.com/woorelease-bugs/types-excludes/pull/2) from a branch prefixed `add/`, `fix/`, `remove/`, `update/`, or `tweak/`
 1. [(set type - manual)](https://github.com/woorelease-bugs/types-excludes/pull/4) from any branch and assign a GH label `changelog: fix|add|update|tweak`
-2. (exclude) and assign a GH label `changelog: none`
+2. [(exclude)](https://github.com/woorelease-bugs/types-excludes/pull/6) and assign a GH label `changelog: none`
 4. [(fall back for no label)](https://github.com/woorelease-bugs/types-excludes/pull/5) from a non-prefixed branch and without any label
 5. [(automatically excluded releases)](https://github.com/woorelease-bugs/types-excludes/pull/3) merging `release/*`
-6. Go to https://github.com/woorelease-bugs/types-excludes/releases/new?tag=1.0.2 and click "Generate release notes"
+6. There is no way to specify multiple entries per single PR (yet?)
+7. Go to https://github.com/woorelease-bugs/types-excludes/releases/new?tag=1.0.2 and click "Generate release notes"
 
 ## Prerequisites
 
